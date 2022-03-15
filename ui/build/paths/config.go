@@ -105,6 +105,9 @@ var Configuration = map[string]PathConfig{
 	"python3": Allowed,
 	"python3.6": Allowed,
 	"python3.8": Allowed,
+	"python3.9": Allowed,
+	"python3.10": Allowed,
+	"resize2fs": Allowed,
 	"repo":    Allowed,
 	"rsync":   Allowed,
 	"sh":      Allowed,
@@ -112,6 +115,7 @@ var Configuration = map[string]PathConfig{
 	"tr":      Allowed,
 	"unzip":   Allowed,
 	"zip":     Allowed,
+
 	"arm-linux-androidkernel-as": Allowed,
 	"arm-linux-androidkernel-ld": Allowed,
 
